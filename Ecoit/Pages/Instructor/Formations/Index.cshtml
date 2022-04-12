@@ -1,0 +1,47 @@
+﻿@page
+@model Ecoit.Pages.Instructor.Formations.IndexModel
+
+@{
+    ViewData["Title"] = "Administration des Formations";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    <a asp-page="Create">Ajouter une formation</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Formation[0].title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Formation[0].description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Formation[0].media)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Formation) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.media)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.FormID">Modifier</a> |
+                <a asp-page="./Delete" asp-route-id="@item.FormID">Supprimer</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

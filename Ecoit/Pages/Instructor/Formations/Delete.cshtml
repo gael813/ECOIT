@@ -1,0 +1,40 @@
+﻿@page
+@model Ecoit.Pages.Instructor.Formations.DeleteModel
+
+@{
+    ViewData["Title"] = "Supprimer";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<h3>Voulez-vous supprimer cet élément ? </h3>
+<div>
+    <h4>Formation</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Formation.title)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Formation.title)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Formation.description)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Formation.description)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Formation.media)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Formation.media)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="Formation.FormID" />
+        <input type="submit" value="Supprimer" class="btn btn-danger" /> |
+        <a asp-page="./Index">Retour à la liste</a>
+    </form>
+</div>

@@ -1,0 +1,44 @@
+﻿@page
+@model Ecoit.Pages.Instructor.Formations.CreateModel
+
+@{
+    ViewData["Title"] = "Créer";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<h4>Formation</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Formation.title" class="control-label"></label>
+                <input asp-for="Formation.title" class="form-control" />
+                <span asp-validation-for="Formation.title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Formation.description" class="control-label"></label>
+                <input asp-for="Formation.description" class="form-control" />
+                <span asp-validation-for="Formation.description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Formation.media" class="control-label"></label>
+                <input asp-for="Formation.media" class="form-control" />
+                <span asp-validation-for="Formation.media" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Créer" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Retour à la liste</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
