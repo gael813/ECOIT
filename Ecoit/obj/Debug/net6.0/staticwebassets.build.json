@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yAakZgNSLkLsqNQkWWt9cRl6gE1/9flvGvC8ZSzOsxA=",
+  "Hash": "3ea7wXlDTNWIPi+IEpAjmujzkoHIplH4HGKXgK4bcEU=",
   "Source": "Ecoit",
   "BasePath": "_content/Ecoit",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Ecoit\\wwwroot",
       "Source": "Ecoit",
-      "ContentRoot": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\",
+      "ContentRoot": "C:\\Ecoit\\Ecoit\\wwwroot\\",
       "BasePath": "_content/Ecoit",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Ecoit\\Ecoit\\wwwroot\\css\\site.css",
       "SourceId": "Ecoit",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\",
+      "ContentRoot": "C:\\Ecoit\\Ecoit\\wwwroot\\",
       "BasePath": "_content/Ecoit",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -34,10 +34,27 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Ecoit\\Ecoit\\wwwroot\\css\\style.css",
       "SourceId": "Ecoit",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\",
+      "ContentRoot": "C:\\Ecoit\\Ecoit\\wwwroot\\",
+      "BasePath": "_content/Ecoit",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Ecoit\\Ecoit\\wwwroot\\favicon.ico",
+      "SourceId": "Ecoit",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Ecoit\\Ecoit\\wwwroot\\",
       "BasePath": "_content/Ecoit",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -51,10 +68,27 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Ecoit\\Ecoit\\wwwroot\\js\\script.js",
       "SourceId": "Ecoit",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\",
+      "ContentRoot": "C:\\Ecoit\\Ecoit\\wwwroot\\",
+      "BasePath": "_content/Ecoit",
+      "RelativePath": "js/script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\script.js"
+    },
+    {
+      "Identity": "C:\\Ecoit\\Ecoit\\wwwroot\\js\\site.js",
+      "SourceId": "Ecoit",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Ecoit\\Ecoit\\wwwroot\\",
       "BasePath": "_content/Ecoit",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -68,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Ecoit\\Ecoit\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Ecoit",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\",
+      "ContentRoot": "C:\\Ecoit\\Ecoit\\wwwroot\\",
       "BasePath": "_content/Ecoit",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -85,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Ecoit\\Ecoit\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Ecoit",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\",
+      "ContentRoot": "C:\\Ecoit\\Ecoit\\wwwroot\\",
       "BasePath": "_content/Ecoit",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -102,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Ecoit\\Ecoit\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Ecoit",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\",
+      "ContentRoot": "C:\\Ecoit\\Ecoit\\wwwroot\\",
       "BasePath": "_content/Ecoit",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -119,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Ecoit\\Ecoit\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Ecoit",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\",
+      "ContentRoot": "C:\\Ecoit\\Ecoit\\wwwroot\\",
       "BasePath": "_content/Ecoit",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -136,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Ecoit\\Ecoit\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Ecoit",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\",
+      "ContentRoot": "C:\\Ecoit\\Ecoit\\wwwroot\\",
       "BasePath": "_content/Ecoit",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -153,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Ecoit\\Ecoit\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Ecoit",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\",
+      "ContentRoot": "C:\\Ecoit\\Ecoit\\wwwroot\\",
       "BasePath": "_content/Ecoit",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -170,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Ecoit\\Ecoit\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Ecoit",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\",
+      "ContentRoot": "C:\\Ecoit\\Ecoit\\wwwroot\\",
       "BasePath": "_content/Ecoit",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -187,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Ecoit\\Ecoit\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Ecoit",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\",
+      "ContentRoot": "C:\\Ecoit\\Ecoit\\wwwroot\\",
       "BasePath": "_content/Ecoit",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -204,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Ecoit\\Ecoit\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Ecoit",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\",
+      "ContentRoot": "C:\\Ecoit\\Ecoit\\wwwroot\\",
       "BasePath": "_content/Ecoit",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -221,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Ecoit\\Ecoit\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Ecoit",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\",
+      "ContentRoot": "C:\\Ecoit\\Ecoit\\wwwroot\\",
       "BasePath": "_content/Ecoit",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -238,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Ecoit\\Ecoit\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Ecoit",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\",
+      "ContentRoot": "C:\\Ecoit\\Ecoit\\wwwroot\\",
       "BasePath": "_content/Ecoit",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -255,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Ecoit\\Ecoit\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Ecoit",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\",
+      "ContentRoot": "C:\\Ecoit\\Ecoit\\wwwroot\\",
       "BasePath": "_content/Ecoit",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -272,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Ecoit\\Ecoit\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Ecoit",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\",
+      "ContentRoot": "C:\\Ecoit\\Ecoit\\wwwroot\\",
       "BasePath": "_content/Ecoit",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -289,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Ecoit\\Ecoit\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Ecoit",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\",
+      "ContentRoot": "C:\\Ecoit\\Ecoit\\wwwroot\\",
       "BasePath": "_content/Ecoit",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -306,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Ecoit\\Ecoit\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Ecoit",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\",
+      "ContentRoot": "C:\\Ecoit\\Ecoit\\wwwroot\\",
       "BasePath": "_content/Ecoit",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -323,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Ecoit\\Ecoit\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Ecoit",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\",
+      "ContentRoot": "C:\\Ecoit\\Ecoit\\wwwroot\\",
       "BasePath": "_content/Ecoit",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -340,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Ecoit\\Ecoit\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Ecoit",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\",
+      "ContentRoot": "C:\\Ecoit\\Ecoit\\wwwroot\\",
       "BasePath": "_content/Ecoit",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -357,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Ecoit\\Ecoit\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Ecoit",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\",
+      "ContentRoot": "C:\\Ecoit\\Ecoit\\wwwroot\\",
       "BasePath": "_content/Ecoit",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -374,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Ecoit\\Ecoit\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Ecoit",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\",
+      "ContentRoot": "C:\\Ecoit\\Ecoit\\wwwroot\\",
       "BasePath": "_content/Ecoit",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -391,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Ecoit\\Ecoit\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Ecoit",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\",
+      "ContentRoot": "C:\\Ecoit\\Ecoit\\wwwroot\\",
       "BasePath": "_content/Ecoit",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -408,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Ecoit\\Ecoit\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "Ecoit",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\",
+      "ContentRoot": "C:\\Ecoit\\Ecoit\\wwwroot\\",
       "BasePath": "_content/Ecoit",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -425,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Ecoit\\Ecoit\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Ecoit",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\",
+      "ContentRoot": "C:\\Ecoit\\Ecoit\\wwwroot\\",
       "BasePath": "_content/Ecoit",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -442,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Ecoit\\Ecoit\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Ecoit",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\",
+      "ContentRoot": "C:\\Ecoit\\Ecoit\\wwwroot\\",
       "BasePath": "_content/Ecoit",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -459,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Ecoit\\Ecoit\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Ecoit",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\",
+      "ContentRoot": "C:\\Ecoit\\Ecoit\\wwwroot\\",
       "BasePath": "_content/Ecoit",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -476,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Ecoit\\Ecoit\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Ecoit",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\",
+      "ContentRoot": "C:\\Ecoit\\Ecoit\\wwwroot\\",
       "BasePath": "_content/Ecoit",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -493,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Ecoit\\Ecoit\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Ecoit",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\",
+      "ContentRoot": "C:\\Ecoit\\Ecoit\\wwwroot\\",
       "BasePath": "_content/Ecoit",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -510,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Ecoit\\Ecoit\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Ecoit",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\",
+      "ContentRoot": "C:\\Ecoit\\Ecoit\\wwwroot\\",
       "BasePath": "_content/Ecoit",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -527,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Ecoit\\Ecoit\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Ecoit",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\",
+      "ContentRoot": "C:\\Ecoit\\Ecoit\\wwwroot\\",
       "BasePath": "_content/Ecoit",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -544,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Ecoit\\Ecoit\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Ecoit",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\",
+      "ContentRoot": "C:\\Ecoit\\Ecoit\\wwwroot\\",
       "BasePath": "_content/Ecoit",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -561,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Ecoit\\Ecoit\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Ecoit",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\",
+      "ContentRoot": "C:\\Ecoit\\Ecoit\\wwwroot\\",
       "BasePath": "_content/Ecoit",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -578,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Ecoit\\Ecoit\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Ecoit",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\",
+      "ContentRoot": "C:\\Ecoit\\Ecoit\\wwwroot\\",
       "BasePath": "_content/Ecoit",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -595,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Ecoit\\Ecoit\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Ecoit",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\",
+      "ContentRoot": "C:\\Ecoit\\Ecoit\\wwwroot\\",
       "BasePath": "_content/Ecoit",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -612,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Ecoit\\Ecoit\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Ecoit",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Administration\\Gael\\STUDI\\Examen STUDI\\ECF\\ECOIT\\Ecoit CS\\Ecoit\\Ecoit\\wwwroot\\",
+      "ContentRoot": "C:\\Ecoit\\Ecoit\\wwwroot\\",
       "BasePath": "_content/Ecoit",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

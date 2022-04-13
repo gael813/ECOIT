@@ -1,0 +1,9 @@
+.logoecoit {
+    height: 25px;
+    width: 25px;
+    background-color: rgb(79, 250, 36);
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 0.5em;
+    vertical-align: text-top;
+  }

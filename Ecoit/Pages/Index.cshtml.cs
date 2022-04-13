@@ -1,25 +1,59 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
-using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 
-namespace Ecoit.Pages
+namespace Ecoit.Pages.Connexion
 {
     public class IndexModel : PageModel
     {
-        private readonly ILogger<IndexModel> _logger;
+        public bool displayInvalidAccountMessage = false;
 
-        public IndexModel(ILogger<IndexModel> logger)
+        IConfiguration Configuration;
+        public IndexModel(IConfiguration configuration)
         {
-            _logger = logger;
+            this.Configuration = configuration;
         }
-
-        public void OnGet()
+        
+        public async Task<IActionResult> OnPost(string email, string password, string ReturnUrl)
         {
+            var authSection = Configuration.GetRequiredSection("Auth");
 
+            string adminLogin = authSection["AdminLogin"];
+            string adminPassword = authSection["AdminPassword"];
+
+            if ((email == adminLogin) && (password == adminPassword))
+            {
+                displayInvalidAccountMessage = false;
+                var claims = new List<Claim>
+                {
+                    new Claim(ClaimTypes.Name, email)
+                };
+                var claimsIdentity = new ClaimsIdentity(claims, "Login");
+                await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new
+                ClaimsPrincipal(claimsIdentity));
+                return Redirect(ReturnUrl == null ? "/Catalog" : ReturnUrl);
+            }
+            displayInvalidAccountMessage = true;
+            return Page();
+        }
+        public IActionResult OnGet()
+        {
+            if (HttpContext.User.Identity.IsAuthenticated)
+            {
+                return Redirect("/Catalog");
+            }
+            return Page();
+        }
+        public async Task<IActionResult> OnGetLogout()
+        {
+            await HttpContext.SignOutAsync();
+            return Redirect("/Index");
         }
     }
 }
