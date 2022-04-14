@@ -29,7 +29,7 @@ namespace Ecoit
         {
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(options =>
             {
-                options.LoginPath = "/Instructor";
+                options.LoginPath = "/Index";
             });
 
             services.AddDbContext<DataContext>(options => options.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));

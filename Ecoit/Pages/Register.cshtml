@@ -1,7 +1,6 @@
 ﻿@page
-@model Ecoit.Pages.Connexion.IndexModel
+@model Ecoit.Pages.RegisterModel
 @{
-    ViewData["Title"] = "Ecoit";
 }
 
 <!DOCTYPE html>
@@ -21,18 +20,14 @@
 <body>
     <div class="pt-4">
         <div class="col text-center">
-            <a type="button" href="/Register"
-            class="btn-outline-secondary w-10 mb-2 mt-5 btn rounded-4 col-4 text-center">Inscription</a>
+            <a type="button" href="/Index"
+            class="btn-outline-secondary w-10 mb-2 mt-5 btn rounded-4 col-4 text-center">Se connecter</a>
+        </div>
+        <div class="col text-center">
+            <a type="button" href="/InstructorRegister"
+            class="btn-outline-secondary w-10 mb-2 mt-5 btn rounded-4 col-4 text-center">Inscription Instructeur</a>
         </div>
     </div>
-@if (Model.displayInvalidAccountMessage)
-{
-    <div classs="container p-5">
-	    <div class="alert alert-danger text-center" role="alert">
-	      L'adresse mail, ou le mot de passe est incorrect !
-	    </div>
-    </div>
-}
     <div class="modal-dialog" role="log">
         <div class="modal-content rounded-5 shadow">
             <div class="modal-body p-5 pt-0 mt-5">
@@ -43,13 +38,17 @@
                         <label for="floatingInput">Adresse Email</label>
                     </div>
                     <div class="form-floating mb-3">
+                        <input type="text" class="form-control rounded-4" name="pseudo" id="floatingInput"
+                            placeholder="Pseudo">
+                        <label for="floatingInput">Pseudo</label>
+                    </div>
+                    <div class="form-floating mb-3">
                         <input type="password" class="form-control rounded-4" name="password" id="floatingPassword"
                             placeholder="Password">
                         <label for="floatingPassword">Mot de passe</label>
                     </div>
                     <div class="col text-center">
-                        <button class="w-50 mb-2 mt-5 btn rounded-4 btn-primary col text-center" type="submit">Se
-                            connecter</button>
+                        <button class="w-50 mb-2 mt-5 btn rounded-4 btn-primary col text-center" type="submit">S'inscrire</button>
                     </div>
                 </form>
             </div>

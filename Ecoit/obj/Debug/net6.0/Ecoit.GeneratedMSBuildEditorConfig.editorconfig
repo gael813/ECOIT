@@ -27,6 +27,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Ecoit/Ecoit/Pages/InstructorRegister.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5zdHJ1Y3RvclJlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Ecoit/Ecoit/Pages/Instructor/Formations/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5zdHJ1Y3RvclxGb3JtYXRpb25zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -41,6 +45,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Ecoit/Ecoit/Pages/Instructor/Formations/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5zdHJ1Y3RvclxGb3JtYXRpb25zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Ecoit/Ecoit/Pages/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Ecoit/Ecoit/Pages/Shared/_Layout.cshtml]
